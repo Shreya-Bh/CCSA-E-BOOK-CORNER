@@ -40,4 +40,4 @@ Ensure the following libraries are installed:
 ![e-book2](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/f1749af1-4ef3-4a7d-8cfa-c0b3f6a68bf3)
 
 ## Demo
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/blob/main/LICENSE) file for more details.
