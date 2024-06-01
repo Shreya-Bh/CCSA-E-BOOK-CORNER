@@ -38,3 +38,6 @@ Ensure the following libraries are installed:
 ![e-book5](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/6df0d1f2-28f0-4589-92f6-26a29055ed66)
 ![e-book4](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/936d548d-dd22-4191-aa69-e4349aa483af)
 ![e-book2](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/f1749af1-4ef3-4a7d-8cfa-c0b3f6a68bf3)
+
+## Demo
+This project is licensed under the MIT License. See the LICENSE file for more details.
