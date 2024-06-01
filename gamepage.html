@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Game</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+         }
+         .gamei{
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(rgba(198, 198, 202, 0.75),rgba(74, 60, 60, 0.75)),url(mazegamebackground.jpg);
+         }
+         .gamei .headings{
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Poppins',sans-serif;
+            font-size: 30px;
+         }
+         .gamei .headings:hover{
+            color: #795353; 
+            transition: color 0.3s ease; 
+         }
+         .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25vh; 
+            padding-top: 150px;
+         }
+
+         .centered-content {
+            text-align: center; 
+         }
+         .white-box {
+            width: 350px; 
+            height: 100px; 
+            padding-bottom: 300px;
+            background-color: rgb(240, 226, 226);
+            margin-top: 10px; 
+            justify-content: center;
+            text-align: center;
+            box-shadow: #795353;
+            background-size: cover;
+            transition: transform 0.5s ease, box-shadow 0.3s ease; 
+
+         }
+         .white-box:hover {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(239, 145, 156, 0.65)),url(whiteboxgame.webp);
+
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+         }
+         .container p{
+            font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            align-items: start;
+         }
+         .button-container a{
+            margin-top: 150px;
+            margin-left: 545px;
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #fff;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+          }
+
+           
+         a:hover {
+            background-color: rgba(239, 145, 156, 0.65); 
+            color: black; 
+          }
+          .button-containeri a{
+            position: absolute;
+            top: 0;
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #fff;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+          }
+          a:hover {
+            background-color: rgba(239, 145, 156, 0.65); 
+            color: black; 
+          }
+
+    </style>
+<body>
+    <div class="gamei">
+        <h1 class="headings">MAZE GAME:</h1>
+    <div class="container">
+        <div class="centered-content">
+            <div class="white-box">
+          <p>Rules for playing the game:<br><br>
+            1. Objective of the game is to Navigate from the starting point to reach the endpoint or goal of the maze. <br><br>
+            2. Use keyboard arrow keys or mouse controls to move through the maze. <br><br>
+            3. Walls and obstacles block certain paths. Navigate around them to find the correct route. <br><br>
+            4. Successfully reaching the goal acknowledges the player's win. <br><br>
+            5. Players have the option to restart the maze to attempt it again. <br><br><br><br>
+            EXPLORE AND ENJOY!!
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="button-container">
+        
+        <a href="maze.html">START GAME</a>
+      </div>
+      <div class="button-containeri">
+        <a href="explore.html">Return to main page</a>
+      </div>
+    </div>
+<script src="./maze.js"></script>
+<script src="script.js"></script>
+</body>
+</head>
+</html>

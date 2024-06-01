@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #f2f5f7;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    }
+    body{
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.68),rgba(0,0,0,0.68)),url("../e-book/media/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+    }
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    }
+.nav{
+    font-family:sans-serif;
+    font-size: 1.1vw;
+    width:100%;
+    margin:10px 0;
+    padding:12px 0;
+    justify-content:space-between;
+    display: flex;
+ 
+    transform: translateX(78%);
+    
+}
+.aa ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.aa ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.aa ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: aqua;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+    }
+    .aa ul li:hover::after{
+        width: 100%;
+    }
+.logo{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: translateX(-1200%);
+}
+.b{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 46%;
+    transform: translatey(10%);
+    transform: translateX(-80%);
+    text-align: left;
+    color:#fff;
+}
+.b>p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    width: 100%;
+    line-height: 27px;
+    
+}
+.b img{
+position: absolute;
+height: 60px;
+width: auto;
+}
+.b #colon1{
+
+    right: 100%;
+    top: 24%;
+}
+.b #colon2{
+    bottom: 24%;
+    left: 100%
+}

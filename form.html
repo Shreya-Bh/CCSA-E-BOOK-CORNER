@@ -1,0 +1,73 @@
+<html>
+<head>
+
+
+<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    
+  <div class="nav">
+    <img src="media/Dibrugarh-University.jpg" class="logo">
+    <div class="aa">
+        <ul> 
+          <li><a href="">Main</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+     </div>
+     </div>
+     <div class="a">
+    <form action="a.php" method="post" onsubmit="return myFunction(event)">
+      <div class="container">
+        <h1>CCSA E-BOOK CORNER</h1>
+        <p>Please fill in this form to login</p>
+        <hr>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" oninput="validateName(this)" required><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" oninput="validateName(this)" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="number">Mobile Number:</label><br>
+        <input type="number" id="number" name="number"><br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+<br><br><br><br>
+
+<button class="button" onclick="myFunction()"><span>Submit</span></button>
+<br><br>
+</div>
+    </form>
+    <br><br>
+</div>
+ 
+    <script>
+      function validateName(input) {
+       
+        input.value = input.value.replace(/[^a-zA-Z\s]/g, '');
+      }
+    
+      function myFunction(event) {
+      
+        event.preventDefault();
+    
+      
+        var enteredPassword = document.getElementById("password").value;
+    
+
+        if (enteredPassword === "CCSA@123") {
+          alert("Submit the details?");
+          
+          document.forms[0].submit(); 
+        } else {
+          alert("Incorrect password. Please enter the correct password.");
+          return false; 
+        }
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Playfair+Display:wght@900&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+    }
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    }
+html{
+    scroll-behavior: smooth;
+}
+.return-btn {
+    margin-right: auto;
+}
+
+.return-btn a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: transparent; 
+    color: #25d3d9; 
+    border: 1px solid #25d3d9; 
+    border-radius: 6px;
+}
+
+.return-btn a:hover {
+    background-color: rgba(52, 152, 219, 0.4); 
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-position: center;
+}
+.bvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+.navbar{
+    width: 85%;
+    height: 3px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.navbar{
+    margin: 0px 10px;
+    margin-bottom: 80px; 
+}
+.navbar button{
+    margin: 0px 10px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px; 
+    height: 40px; 
+    font-size: 10px; 
+    padding: 5px 10px; 
+    background-color: transparent; 
+    color: #3498db; 
+    border: 2px solid #3498db; 
+}
+.logo{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex-box{
+    width: 150px;
+    height: 150px;
+    background:linear-gradient(rgb(255, 233, 201),rgb(174, 107, 0));
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-box{
+
+    color: white;
+    margin: 0px 10px;
+    transition: 1s;
+}
+.flex-box a{
+    color: black;
+}
+.flex-box a:hover{
+    transform: scale(1.1);
+    color:#fff;
+}
+
+.flex-container .flex-box:hover {
+    transform: scale(1.1);
+    background: url('bcamca.jpg'); 
+    background-size: cover;
+    box-shadow: 2px 2px 2px rgb(248, 248, 248);
+    z-index: 2;
+}
+a:link{
+    font-family: cursive;
+    color: black;
+    text-decoration: none;
+}
+#funzone{
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(game.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    font-family: cursive;
+    padding: 100px;
+}
+
+.flex-containeri{   
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-boxi{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    background: linear-gradient(rgb(255, 255, 255),rgb(129, 83, 10));
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-boxi{
+    background: linear-gradient(rgb(255, 255, 255),rgb(184, 23, 23));
+    margin: 0px 10px;
+    transition: 1s;
+}
+.flex-boxi a{
+    color: black;
+}
+.flex-boxi a:hover{
+    transform: scale(1.1);
+    color:#fff;
+}
+.flex-containeri .flex-boxi:hover{
+    transform: scale(1.1);
+    background: url('gamess.jpg'); 
+    background-size: cover;
+    box-shadow: 2px 2px 2px rgb(248, 248, 248);
+    z-index: 2;
+}
+#funzone h1{
+    margin: 0px 10px;
+    margin-bottom: 100px;
+   
+}
+
+.quote-box {
+    background-color: rgba(255, 254, 254, 0.5);
+    width: 400px;
+    height: 290px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    overflow-y: visible;  
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.quote-box h2{
+    margin-bottom: 30px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    position: relative;
+    color: rgb(195, 118, 118);
+}
+.quote-box h2::after{
+    content: '';
+    width: 220px;
+    height: 2px;
+    border-radius: 3px;
+    background: rgb(195, 118, 118);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%); 
+}
+.quote-box blockquote{
+    font-size: 20px;
+    min-height: 0px;
+    color: rgb(51, 51, 51);
+}
+.quote-box blockquote::before, .quote-box blockquote::after{
+    content: '"';
+}
+.quote-box span{
+    color: rgb(195, 118, 118);
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.quote-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(195, 118, 118);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-box button {
+    background: rgb(40, 23, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(229, 226, 23);
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -20px auto 0; 
+    cursor: pointer;
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Playfair+Display:wght@900&family=Poppins:wght@300&display=swap');
+body {
+  font-family: 'DM Serif Display', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+body{
+  overflow-x: hidden;
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  }
+  @keyframes fadeIn {
+      to {
+          opacity: 1;
+      }
+  }
+  .button-container {
+   
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+
+  .buttoni {
+    width: 200px;
+    padding: 11px 0;
+    text-align: center;
+    left: 50px;
+    top: 3px; 
+    border-radius: 25px;
+    background-color: transparent; 
+    font-weight: bold;
+    border: 2px solid aqua; 
+    color: aqua; 
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+  }
+  
+  .buttoni:hover {
+    background-color: rgba(0, 255, 255, 0); 
+    color: white; 
+  }
+  
+    .buttoni:hover span {
+        padding-left: 20px;
+      }
+      .buttoni:hover span:after {
+        opacity: 1;
+        left: 0;
+      }
+      .buttoni span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .buttoni span:after {
+        content: '\00ab';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: -30px;
+        transition: 0.5s;
+      }
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+#video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(60, 187, 230)
+}
+
+.fact {
+  margin-top: 30px;
+}
+
+#factText {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#factButton {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #9ccbeb;
+  color: rgb(19, 109, 157);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#factButton:hover {
+  background-color: rgba(239, 145, 156, 0.65); 
+   color: black; 
+}
+#factText {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #ffffff; 
+}

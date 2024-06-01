@@ -1,0 +1,51 @@
+<html>
+<head>
+
+
+<link rel="stylesheet" href="confirm.css">
+</head>
+
+<body>
+
+    
+  <div class="nav">
+    <img src="media/Dibrugarh-University.jpg" class="logo">
+    <div class="aa">
+        <ul> 
+          <li><a href="">Main</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+     </div>
+     </div>
+     <div class="a">
+      <form id="bookForm" action="update_user.php" method="post">
+      <div class="container">
+        <h1>CCSA E-BOOK CORNER</h1>
+        <p>Please fill in the following details</p>
+        <hr>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"  required><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"  required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="bookSelect">Select a Book:</label>
+        <select id="bookSelect" name="bookSelect" required></select><br><br>
+        <label for="dod">Date:</label><br>
+        <input type="date" id="dod" name="dod"><br><br>
+        <label for="tod">Time:</label>
+        <input type="time" id="tod" name="tod" required>
+        
+
+<br><br><br><br>
+
+<button class="button" onclick="submitForm()"><span>Submit</span></button>
+<br><br>
+</div>
+    </form>
+    <br><br>
+</div>
+ 
+<script src="conf.js"></script>
+</body>
+</html>
