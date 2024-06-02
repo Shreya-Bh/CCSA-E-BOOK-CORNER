@@ -1,5 +1,9 @@
 # CCSA-E-BOOK-CORNER
-Introducing CCSA eBook Corner, an online platform developed as a minor project for my 5th semester BCA program. This website offers a diverse collection of reference books and engaging activities to enhance the learning experience for my centre's community. Explore, learn, and enjoy!
+Introducing CCSA eBook Corner, an innovative online platform designed to enrich the learning experience of the Centre for Computer Science and Application (CCSA) community. Developed by myself and a fellow student as a project for our 5th semester BCA program at Dibrugarh University, this website features a meticulously curated collection of reference books spanning a diverse range of subjects, ensuring that users have access to high-quality educational resources.
+
+Understanding that effective learning combines study with engaging activities, we have integrated a Funzone into our platform. This section offers interactive quizzes, puzzles, and games, providing an enjoyable way to reinforce knowledge and take refreshing breaks from intensive study sessions. Additionally, users can explore a curated selection of peaceful music and discover interesting facts, adding a delightful mix of entertainment to their educational journey.
+
+The CCSA eBook Corner is not just a repository of books; it’s a dynamic environment where education meets enjoyment. Users are encouraged to provide feedback and request new e-books, ensuring that our collection evolves to meet their needs and preferences. Explore, learn, and enjoy a holistic educational experience with CCSA eBook Corner.
 
 ## Features
 
@@ -19,6 +23,18 @@ Ensure the following libraries are installed:
 - **PHPMailer**
 
 ## Demo
+
+
+
+
+https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/ebce90c0-6e5d-4ebe-b0f6-55f628eb5c36
+
+
+https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/65e4df9d-c132-4763-9076-f9a88fe6955a
+
+
+https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/17e7190c-528c-47de-a0a6-6d3e6546f1ca
+
 ![Explore - Google Chrome 6_1_2024 7_17_01 PM](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/f020c135-a340-4386-a684-fb8deef65df5)
 ![Explore - Google Chrome 6_1_2024 7_16_26 PM](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/ae2a1b96-0531-472f-95fe-2af874a9c020)
 ![Explore - Google Chrome 6_1_2024 7_15_50 PM](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/8634e1e9-046a-4601-9371-a9d7263f70c4)
@@ -39,5 +55,8 @@ Ensure the following libraries are installed:
 ![e-book4](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/936d548d-dd22-4191-aa69-e4349aa483af)
 ![e-book2](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/assets/124278638/f1749af1-4ef3-4a7d-8cfa-c0b3f6a68bf3)
 
-## Demo
+## MIT License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/blob/main/LICENSE) file for more details.
+
+## Note
+Note: The PDF files of the e-books available on this platform have been replaced with sample e-book PDFs for copyright reasons. These sample files are intended to demonstrate how the download system works. While they do not contain the full content of the original e-books, they effectively showcase the functionality of this platform. Thank you for your understanding.
