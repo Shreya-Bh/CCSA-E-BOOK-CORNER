@@ -5,6 +5,8 @@ Understanding that effective learning combines study with engaging activities, w
 
 The CCSA eBook Corner is not just a repository of books; it’s a dynamic environment where education meets enjoyment. Users are encouraged to provide feedback and request new e-books, ensuring that our collection evolves to meet their needs and preferences. Explore, learn, and enjoy a holistic educational experience with CCSA eBook Corner.
 
+###Please make sure to carefully read the [Note](https://github.com/Shreya-Bh/CCSA-E-BOOK-CORNER/blob/main/README.md#note) regarding the sample e-book PDFs used on this platform.
+
 ## Features
 
 - **Extensive eBook Collection**: Access a wide range of reference books covering various subjects.
